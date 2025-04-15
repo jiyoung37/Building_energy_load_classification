@@ -37,4 +37,4 @@ This project classifies residential buildings into energy efficiency categories 
 
 ![Feature correlation heatmap](heatmap_corr.png)
 
-![SHAP summary](shap_summary_bar.png.png)
+![SHAP summary](shap_summary_bar.png)
