@@ -29,11 +29,12 @@ This project classifies residential buildings into energy efficiency categories 
 | Model             | Best Params                                 | Accuracy |
 |-------------------|---------------------------------------------|----------|
 | KNN               | `n_neighbors=3`                             | 0.95     |
-| SVM               | `kernel='linear', C=50`                     | 0.97  |
-| **Random Forest** | `max_features='sqrt', min_samples_split=12` | **1.0** |
-| VotingClassifier  | KNN + SVM + RF (hard vote)                  | 0.98 |
+| SVM               | `kernel='rbf   ', C=50`                     | 0.95     |
+| **Random Forest** | `max_features='log2', min_samples_split=8 ` | **0.96** |
+| VotingClassifier  | KNN + SVM + RF (hard vote)                  | 0.95 |
 
 > **Random Forest** gave the best results overall.
 
-![Sea level plot](sea_level_plot.png)
+![Feature correlation heatmap](heatmap_corr.png)
 
+![SHAP summary](shap_summary_bar.png.png)
