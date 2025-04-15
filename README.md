@@ -35,6 +35,8 @@ This project classifies residential buildings into energy efficiency categories 
 
 > **Random Forest** gave the best results overall.
 
+**Feature correlation heatmap**
 ![Feature correlation heatmap](heatmap_corr.png)
 
+**SHAP summary**
 ![SHAP summary](shap_summary_bar.png)
